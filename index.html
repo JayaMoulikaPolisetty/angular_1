@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="source">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <title>Sourceeasy</title>
+
+   
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+   
+    <link href="style.css" rel="stylesheet">
+
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <h1 class="text-muted">Sourceeasy</h1>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="#/main">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/services">Services</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div ng-controller="MainCtrl">
+        <div ng-view></div>
+      </div>
+      
+
+      <footer class="footer">
+        <p>&copy; Sourceeasy</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular-route.js"></script>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.js"></script
+     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
